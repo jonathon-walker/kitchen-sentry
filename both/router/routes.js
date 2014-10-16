@@ -11,3 +11,9 @@ Router.route('home', {
     path: '/',
     template: 'Home'
 });
+
+
+Router.route('sentries.index', {
+    path: '/sentries',
+    template: 'SentriesIndex'
+});
